@@ -1,0 +1,107 @@
+a {color:inherit;}      /* unvisited link */
+a:visited {color:inherit;}  /* visited link */
+a:hover {color:inherit;}  /* mouse over link */
+a:active {color:inherit;}  /* selected link */
+
+.gap{
+	margin-top:15px;
+	margin-bottom:15px;
+	display:block;
+	width:100%;
+}
+
+.small-gap{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.no-border-radius{
+	border-radius:0;
+}
+
+img.custom-logo {
+    width: 115px;
+}
+
+span#post-expiration {
+    float: right;
+}
+
+a.white-text-color-link{
+	color:#fff;
+	text-decoration:none;
+}
+
+.the-excerpt{
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:justify;
+}
+
+.home-img-div img{
+	width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    vertical-align: middle;
+}
+
+.home-img-div{
+	max-height:270px;
+	height:150px;
+	overflow:hidden;
+	display:block;
+	width:100%;
+	padding:0;
+}
+
+.post-featured-image{
+	margin-bottom:20px;
+}
+
+.post-featured-image img{
+	margin:0 auto;
+	display:block;
+}
+
+.home-price,
+.home-post-button{
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+    float: left;
+}
+
+.home-real-price{
+	font-size:28px;
+	text-decoration:line-through;
+	padding:10px;
+	border-radius:5px;
+}
+
+.home-discounted-price{
+	font-size:28px;
+	padding:10px;
+	border-radius:5px;
+}
+
+.home-you-save {
+    position: absolute;
+    top: -19px;
+    right: -9px;
+    background: #bc002d;
+    color: #fff;
+    border-radius: 35px;
+    padding: 20px 13px;
+}
+
+.home-terms{
+	color:#999!important;
+	font-size:9px;
+	text-transform:uppercase;
+}
+
+.time-remaining{
+	padding-right:30px;
+}
