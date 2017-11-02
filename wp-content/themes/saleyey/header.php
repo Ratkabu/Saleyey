@@ -36,8 +36,18 @@
 		<div class="small-gap"></div>
 		<nav class="navbar navbar-inverse no-border-radius">
 		  <div class="container">
+		  	<?php
+		  		$menu_terms = get_terms([
+    			'taxonomy' => $taxonomy,
+    			'hide_empty' => true,
+			]);
+		  		$i= 0;
+		  		
+			?>
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="/deal-type/tutorials-online">Tutorials Online</a></li>		 <li class="active"><a href="/deal-type/web-hosting">Web Hosting</a></li>
+		      <?php foreach($menu_terms as $menu_term_key => $menu_term_value){ ?>
+		      <li><a href="/deal-type/tutorials-online"><?php if($i < 10) {echo $menu_term_value->name; $i++; } ?></a></li>
+		      <?php } ?>
 		    </ul>
 		  </div>
 		</nav>

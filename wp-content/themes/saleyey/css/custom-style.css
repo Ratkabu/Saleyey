@@ -106,3 +106,7 @@ a.white-text-color-link{
 .time-remaining{
 	padding-right:30px;
 }
+
+.panel-body{
+	min-height:520px;
+}
