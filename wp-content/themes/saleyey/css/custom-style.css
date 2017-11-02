@@ -108,5 +108,13 @@ a.white-text-color-link{
 }
 
 .panel-body{
-	min-height:520px;
+	min-height:530px;
+}
+
+.panel-default{
+	margin-bottom:45px;
+}
+
+.navbar{
+	margin-bottom:45px;
 }

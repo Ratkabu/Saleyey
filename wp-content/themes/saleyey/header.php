@@ -38,11 +38,10 @@
 		  <div class="container">
 		  	<?php
 		  		$menu_terms = get_terms([
-    			'taxonomy' => $taxonomy,
+    			'taxonomy' => 'deal_type',
     			'hide_empty' => true,
 			]);
 		  		$i= 0;
-		  		
 			?>
 		    <ul class="nav navbar-nav">
 		      <?php foreach($menu_terms as $menu_term_key => $menu_term_value){ ?>
